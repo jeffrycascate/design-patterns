@@ -1,32 +1,41 @@
-﻿
-public interface IButton {
+﻿using static System.Net.Mime.MediaTypeNames;
+
+public interface IButton
+{
     void Render();
+
     void OnClick(Action actiont);
 }
 
-public class WindowButton : IButton {
-    public void Render() {
-          Console.WriteLine("Representa un botón en estilo Windows.");
+public class WindowsButton : IButton
+{
+    public void Render()
+    {
+        Console.WriteLine("Representa un botón en estilo Windows.");
     }
 
-    public void OnClick(Action actiont) {
-          Console.WriteLine("Representa un botón en estilo Windows.");
-    }
-}
-
-public class HTMLButton  : IButton {
-    public void Render() {
-          Console.WriteLine("Devuelve una representación HTML de un botón.");
-    }
-
-    public void OnClick(Action actiont) {
-          Console.WriteLine("Representa un botón en estilo Windows.");
+    public void OnClick(Action actiont)
+    {
+        Console.WriteLine("Representa un botón en estilo Windows.");
     }
 }
 
-public class Dialog {
+public class HTMLButton : IButton
+{
+    public void Render()
+    {
+        Console.WriteLine("Devuelve una representación HTML de un botón.");
+    }
 
-    public abstract  IButton CreateButton();
+    public void OnClick(Action actiont)
+    {
+        Console.WriteLine("Representa un botón en estilo Windows.");
+    }
+}
+
+public abstract class Dialog
+{
+    public abstract IButton CreateButton();
 
     public void Render()
     {
@@ -40,7 +49,7 @@ public class Dialog {
         Console.WriteLine("Cerrando diálogo.");
     }
 }
- 
+
 public class WindowsDialog : Dialog
 {
     public override IButton CreateButton()
@@ -57,6 +66,8 @@ public class WebDialog : Dialog
     }
 }
 
+public class Application
+{
     private Dialog dialog;
 
     public void Initialize(string OS)
@@ -69,6 +80,18 @@ public class WebDialog : Dialog
             throw new Exception("Error! Unknown operating system.");
     }
 
-    var OS = "Windows";
-    this.Initialize(OS);
-    dialog.Render();
+    public void Main(string OS)
+    {
+        this.Initialize(OS);
+        dialog.Render();
+    }
+}
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        var app = new Application();
+        app.Main("Windows"); // Cambia esto según el sistema operativo
+    }
+}

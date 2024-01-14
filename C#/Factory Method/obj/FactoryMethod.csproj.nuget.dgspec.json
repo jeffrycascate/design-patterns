@@ -1,32 +1,49 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\design-patterns\\C#\\Factory Method\\FactoryMethod.csproj": {}
+    "F:\\Projects\\design-patterns\\C#\\Factory Method\\FactoryMethod.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\design-patterns\\C#\\Factory Method\\FactoryMethod.csproj": {
+    "F:\\Projects\\design-patterns\\C#\\Factory Method\\FactoryMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\design-patterns\\C#\\Factory Method\\FactoryMethod.csproj",
+        "projectUniqueName": "F:\\Projects\\design-patterns\\C#\\Factory Method\\FactoryMethod.csproj",
         "projectName": "FactoryMethod",
-        "projectPath": "D:\\Projects\\design-patterns\\C#\\Factory Method\\FactoryMethod.csproj",
+        "projectPath": "F:\\Projects\\design-patterns\\C#\\Factory Method\\FactoryMethod.csproj",
         "packagesPath": "C:\\Users\\jeffr\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\design-patterns\\C#\\Factory Method\\obj\\",
+        "outputPath": "F:\\Projects\\design-patterns\\C#\\Factory Method\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\DevExpress 21.1\\.NET Core Desktop Libraries\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\jeffr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {}
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/XYInw5ruLj29MirN41dVSoyrdSARKeiidTq7jS2H6j9KIU7hRK/api": {},
+          "https://www.inmotiontools.com:35008/nuget": {}
         },
         "frameworks": {
           "net8.0": {

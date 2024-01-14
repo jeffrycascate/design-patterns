@@ -1,0 +1,5 @@
+d:\Projects\design-patterns\C#\Factory Method\obj\Debug\net8.0\FactoryMethod.GeneratedMSBuildEditorConfig.editorconfig
+d:\Projects\design-patterns\C#\Factory Method\obj\Debug\net8.0\FactoryMethod.AssemblyInfoInputs.cache
+d:\Projects\design-patterns\C#\Factory Method\obj\Debug\net8.0\FactoryMethod.AssemblyInfo.cs
+d:\Projects\design-patterns\C#\Factory Method\obj\Debug\net8.0\FactoryMethod.csproj.CoreCompileInputs.cache
+d:\Projects\design-patterns\C#\Factory Method\obj\Debug\net8.0\FactoryMethod.sourcelink.json
